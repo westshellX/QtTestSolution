@@ -8,4 +8,5 @@ SUBDIRS += \
     helloOSG \
     HelloQtSql \
     openGLWindow_osg \
-    openGLWidget_osg
+    openGLWidget_osg \
+    QtNewDatabase

@@ -1,11 +1,9 @@
-#include "dialog.h"
-#include <QApplication>
-
+#include <QCoreApplication>
+#include <iostream>
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    Dialog w;
-    w.show();
+    QCoreApplication a(argc, argv);
 
+    std::cout<<"hello world!"<<std::endl;
     return a.exec();
 }

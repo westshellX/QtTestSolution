@@ -2,13 +2,6 @@
 #define DIALOG_H
 
 #include <QWidget>
-#include <osg/ref_ptr>
-#include <osgViewer/Viewer>
-#include <osgDB/ReadFile>
-#include <osgViewer/ViewerEventHandlers>
-#include <osgGA/TrackballManipulator>
-
-#include "qtgraphicswindow.h"
 
 class Dialog : public QWidget
 {
@@ -19,7 +12,6 @@ public:
     ~Dialog();
 
 public:
-    osg::ref_ptr<osgViewer::Viewer> _viewer;
 
 };
 

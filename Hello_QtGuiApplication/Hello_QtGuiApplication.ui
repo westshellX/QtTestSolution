@@ -1,0 +1,29 @@
+<UI version="4.0" >
+ <class>Hello_QtGuiApplicationClass</class>
+ <widget class="QMainWindow" name="Hello_QtGuiApplicationClass" >
+  <property name="objectName" >
+   <string notr="true">Hello_QtGuiApplicationClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Hello_QtGuiApplication</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="Hello_QtGuiApplication.qrc"/>
+ </resources>
+ <connections/>
+</UI>

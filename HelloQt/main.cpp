@@ -3,7 +3,7 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    std::cout<<"Hello World!"<<std::endl;
+    std::cout<<"Hello Qt!"<<std::endl;
     a.exec();
     return 1;
 }

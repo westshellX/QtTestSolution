@@ -1,4 +1,3 @@
-#include "LibSet.h"
 #include <iostream>
 #include <mysql.h>
 int main()
@@ -14,15 +13,15 @@ int main()
 		std::cout<<"mysql_init() failed!"<<std::endl;
 		return -1;
 	}
-	//if(mysql_library_init(0,NULL,NULL)==0)
-	//{
-	//	std::cout<<"mysql_library_init() succeed!"<<std::endl;
-	//}
-	//else
-	//{
-	//	std::cout<<"mysql_library_init() failed!"<<std::endl;
-	//	return -1;
-	//}
+    if(mysql_library_init(0,NULL,NULL)==0)
+    {
+        std::cout<<"mysql_library_init() succeed!"<<std::endl;
+    }
+    else
+    {
+        std::cout<<"mysql_library_init() failed!"<<std::endl;
+        return -1;
+    }
 	mysql_options(&mysql,MYSQL_OPT_CONNECT_ATTR_RESET,0);
 	mysql_options(&mysql,MYSQL_READ_DEFAULT_GROUP,"testMySQL");
 

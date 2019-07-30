@@ -4,4 +4,5 @@ SUBDIRS += \
     HelloWorld \
     testDialog \
     HelloQt \
-    helloDialog
+    helloDialog \
+    testMySQL

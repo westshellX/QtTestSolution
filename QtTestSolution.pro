@@ -8,4 +8,6 @@ SUBDIRS += \
     testMySQL   \
     QtMySQL \
     HelloQtSql  \
-    QtNewDatabase
+    QtNewDatabase   \
+    Hello_QtGuiApplication  \
+    HelloMainWind

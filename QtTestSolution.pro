@@ -5,4 +5,7 @@ SUBDIRS += \
     testDialog \
     HelloQt \
     helloDialog \
-    testMySQL
+    testMySQL   \
+    QtMySQL \
+    HelloQtSql  \
+    QtNewDatabase

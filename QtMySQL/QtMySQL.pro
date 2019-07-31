@@ -1,6 +1,7 @@
 QT += core
 QT += gui
 QT += sql
+QT += widgets
 CONFIG += c++11
 
 TARGET = QtMySQL

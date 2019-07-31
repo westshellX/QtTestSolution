@@ -1,5 +1,4 @@
 #include <QCoreApplication>
-#include <QtWidgets>
 #include <iostream>
 #include <QSqlDatabase>
 #include <QPluginLoader>
@@ -14,15 +13,15 @@ int main(int argc, char *argv[])
     QSqlDatabase d=QSqlDatabase::addDatabase("QMYSQL");
     d.setHostName("localhost");
     d.setDatabaseName("navshipmodel");
-    d.setUserName("root");
-    d.setPassword("rootlove");
+    d.setUserName("westshell");
+    d.setPassword("love_mysql");
     d.setPort(3306);
     if(d.open())
-        std::cout<<"Hi mysql!è¿žæŽ¥"<<std::endl;
+        std::cout<<"Hi mysql!Á¬½Ó"<<std::endl;
     else
         std::cout<<"failed!"<<std::endl;
 
-    createConnection();
+//    createConnection();
     QPluginLoader loader;
     qDebug()<<loader.load();
     qDebug()<<loader.errorString();

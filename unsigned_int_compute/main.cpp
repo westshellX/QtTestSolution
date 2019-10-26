@@ -2,7 +2,7 @@
 
 using namespace std;
 
-unsigned int _resolution=8;
+unsigned int _resolution=4;
 unsigned int getVertex( unsigned int x, unsigned int y )
 {
     return  x + y * _resolution ;
@@ -19,10 +19,10 @@ int main()
         {
             x1=x%_resolution;
             x2=(x+1)%_resolution;
-            std::cout<<"(x1,y1): "<<x1<<","<<y1<<"  "<<getVertex(x1,y1)<<endl;
-            std::cout<<"(x1,y2): "<<x1<<","<<y2<<"  "<<getVertex(x1,y1)<<endl;
-            std::cout<<"(x2,y1): "<<x2<<","<<y1<<"  "<<getVertex(x1,y1)<<endl;
-            std::cout<<"(x2,y2): "<<x2<<","<<y2<<"  "<<getVertex(x1,y1)<<endl;
+            std::cout<<"(x,y):"<<x<<","<<y<<" (x1,y1): "<<x1<<","<<y1<<"  "<<getVertex(x1,y1)<<endl;
+            std::cout<<"(x,y):"<<x<<","<<y<<" (x1,y2): "<<x1<<","<<y2<<"  "<<getVertex(x1,y1)<<endl;
+            std::cout<<"(x,y):"<<x<<","<<y<<" (x2,y1): "<<x2<<","<<y1<<"  "<<getVertex(x1,y1)<<endl;
+            std::cout<<"(x,y):"<<x<<","<<y<<" (x2,y2): "<<x2<<","<<y2<<"  "<<getVertex(x1,y1)<<endl;
         }
     }
     std::cout<<-1%4<<endl;

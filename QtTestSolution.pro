@@ -1,7 +1,7 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    HelloWorld \
+    unsigned_int_compute \
     testDialog \
     HelloQt \
     helloDialog \

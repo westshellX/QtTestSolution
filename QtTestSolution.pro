@@ -10,4 +10,5 @@ SUBDIRS += \
     HelloQtSql  \
     QtNewDatabase   \
     Hello_QtGuiApplication  \
-    HelloMainWind
+    HelloMainWind \
+    testVRSever
